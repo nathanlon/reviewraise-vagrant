@@ -1,0 +1,34 @@
+mod 'maestrodev/wget', "1.5.2"
+mod 'maestrodev/ant', "1.0.5"
+mod 'apache_httpd', :git => 'https://github.com/thias/puppet-apache_httpd.git'
+mod 'bash', :git => 'https://github.com/HolyJo/puppet-bash.git'
+mod 'puppetlabs/git', "0.2.0"
+mod 'puppetlabs/java', "1.1.1"
+mod 'mysql', :git => 'https://github.com/HolyJo/puppet-mysql.git'
+mod 'puppetlabs/nodejs', "0.6.1"
+mod 'thias/php', "0.3.12"
+mod 'rraise',
+  :git => 'git@github.com:nathanlon/puppet-reviewraise.git',
+  :branch => 'master'
+mod 'repo',
+  :git => 'https://github.com/nathanlon/reviewraise-puppet-repo.git'
+mod 'atomic', :git => 'https://github.com/andyshinn/puppet-atomic.git'
+mod 'rvm', :git => 'https://github.com/HolyJo/puppet-rvm.git'
+mod 'spiette/selinux'
+mod 'puppetlabs/stdlib', "4.11.0"
+mod 'saz/sudo', "3.0.6"
+#mod 'puppetlabs/rabbitmq', "5.3.1"
+mod 'garethr/erlang'
+mod 'nanliu/staging'
+mod 'tracywebtech/pip'
+mod 'supervisord',
+  :git => 'https://github.com/HolyJo/puppet-supervisord.git',
+  :branch => 'master'
+mod 'puppetlabs/concat'
+mod 'phpunit',
+  :git => 'https://github.com/degdigital/puppet-phpunit.git',
+  :branch => 'master'
+mod 'counsyl/sys'
+mod 'counsyl/python'
+
+
